@@ -1,0 +1,17 @@
+{
+  "name": "maker_demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "maker_demo.js",
+  "scripts": {
+    "start:ws": "node maker_ws_demo.js",
+    "start:http": "node maker_http_demo.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.7.2",
+    "ethers": "^6.13.1",
+    "ws": "^8.17.1"
+  }
+}
